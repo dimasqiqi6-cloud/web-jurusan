@@ -74,7 +74,7 @@ body {
 .hero {
     position: relative;
     width: 100%;
-    height: 500px; /* tinggi hero */
+    height: 500px; 
     overflow: hidden;
 }
 
@@ -85,7 +85,7 @@ body {
     display: block;
 }
 
-/* Overlay biru transparan */
+
 .overlay {
     position: absolute;
     top: 0;
@@ -95,7 +95,6 @@ body {
     background: rgba(0, 123, 255, 0.5);
 }
 
-/* Tulisan di tengah */
 .hero-content {
     position: absolute;
     top: 50%;
@@ -318,7 +317,7 @@ body {
 
 .ikon-sosial {
     display: flex;
-     justify-content: center; /* INI KUNCINYA */
+     justify-content: center; 
     align-items: center;
     gap: 10px;
 }
@@ -435,7 +434,7 @@ body {
     }
 
 }
-/* ================= KOMENTAR / REVIEW ================= */
+
 
 .review-box {
     max-width: 1000px;
@@ -453,7 +452,7 @@ body {
     font-size: 28px;
 }
 
-/* INPUT */
+
 .input-group {
     margin-bottom: 18px;
 }
@@ -480,7 +479,7 @@ body {
     box-shadow: 0 0 6px rgba(0,151,178,0.3);
 }
 
-/* RATING */
+
 .rating-options {
     display: flex;
     gap: 10px;
@@ -520,7 +519,7 @@ body {
     color: #ffc107; 
 }
 
-/* BUTTON */
+
 .btn-kirim {
     width: 100%;
     padding: 12px;
@@ -539,12 +538,12 @@ body {
     transform: translateY(-2px);
 }
 
-/* LIST KOMENTAR */
+
 .review-list {
     margin-top: 30px;
 }
 
-/* ITEM KOMENTAR */
+
 .comment-item {
     background: #f9fbfc;
     padding: 18px;
@@ -578,7 +577,7 @@ body {
     border-left: 4px solid #0097b2;
 }
 
-/* KOMENTAR DALAM (REPLY) */
+
 .comment-item .comment-item {
     margin-top: 15px;
     margin-left: 40px; 
@@ -586,13 +585,13 @@ body {
     border-left: 3px solid #00bcd4;
 }
 
-/* TEKS PESAN */
+
 .comment-item p {
     margin: 8px 0;
     color: #555;
 }
 
-/* FORM BALAS KOMENTAR */
+
 .comment-item form {
     margin-top: 10px;
     display: flex;
@@ -600,7 +599,7 @@ body {
     align-items: center;
 }
 
-/* INPUT BALAS */
+
 .comment-item input[type="text"] {
     flex: 1;
     padding: 8px 10px;
@@ -625,7 +624,7 @@ body {
     box-shadow: 0 0 5px rgba(0,151,178,0.3);
 }
 
-/* BUTTON BALAS */
+
 .comment-item button {
     background: #0097b2;
     color: white;
@@ -640,20 +639,20 @@ body {
     background: #007a91;
 }
 
-/* NAMA + RATING */
+
 .comment-item strong {
     color: #0097b2;
     font-size: 15px;
 }
 
-/* RATING */
+
 .comment-rating {
     margin-left: 5px;
     font-size: 14px;
     color: #f4b400;
 }
 
-/* --- RESPONSIVE DESIGN --- */
+
 
 @media (max-width: 768px) {
     .review-box {
